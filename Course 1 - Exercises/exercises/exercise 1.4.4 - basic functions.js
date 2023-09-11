@@ -13,8 +13,8 @@ console.log(factorial(4)); // Output: 24
 
 function power(m, n) {
     let powerResult = 1;
-    for(let i = 1; i <= m; i++) {
-        powerResult *= n;
+    for(let i = 1; i <= n; i++) {
+        powerResult *= m;
     }
     return powerResult;
 }
